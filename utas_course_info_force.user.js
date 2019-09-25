@@ -24,5 +24,5 @@
     console.log(courses);
     const links = courses.find('td:nth-last-of-type(2)').wrapInner('<a></a>').children('a');
     console.log(year, shozokuCd, lang);
-    links.attr({onclick: (i) => `refer('${year}','${shozokuCd}','${codes[i].innerText}','${lang}');`});
+    links.attr({onclick: (i) => `refer('${year}','${shozokuCd}','${codes[i].innerText}','${lang}');`}).css({'color': '#027075'});
 })();
