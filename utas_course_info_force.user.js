@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Open Unavailable UTAS Course Info Page
 // @namespace    https://github.com/pizzacat83
-// @version      0.1.0
+// @version      0.1.1
 // @description  科目一覧にリンクがない科目の項目をリンクにします。
 // @author       pizzacat83
 // @include      /^https:\/\/utas\.adm\.u-tokyo\.ac\.jp\/campusweb\/campussquare\.do/
