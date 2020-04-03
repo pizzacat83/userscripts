@@ -14,6 +14,6 @@
     'use strict';
     setInterval(() => {
         window.extendSession();
-        console.info('extended');
+        console.debug('extended');
     }, 5*60*1000);
 })();
