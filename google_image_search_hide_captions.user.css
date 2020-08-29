@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Hide captions of Google Image Search
+@namespace      pizzacat83.com
+@version        1.0.0
+@description    Hide captions of Google Image Search
+@author         pizzacat83
+@homepageURL https://github.com/pizzacat83/userscripts
+@updateURL   https://raw.githubusercontent.com/pizzacat83/userscripts/master/google_image_search_hide_captions.user.css
+==/UserStyle== */
+
+@-moz-document regexp("https://www\.google\.com/search\?.*tbm=isch.*") {
+    .VFACy {
+        display: none;
+    }
+}

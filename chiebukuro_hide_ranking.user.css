@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Hide ranking of Yahoo! chiebukuro
+@namespace      pizzacat83.com
+@version        1.0.0
+@description    Hide ranking of Yahoo! chiebukuro
+@author         pizzacat83
+@homepageURL https://github.com/pizzacat83/userscripts
+@updateURL   https://raw.githubusercontent.com/pizzacat83/userscripts/master/chiebukuro_hide_ranking.user.css
+==/UserStyle== */
+
+@-moz-document domain("detail.chiebukuro.yahoo.co.jp") {
+    #sub-inner {
+        display: none;
+    }
+}

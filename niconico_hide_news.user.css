@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Hide Niconico news
+@namespace      pizzacat83.com
+@version        1.0.0
+@description    see title
+@author         pizzacat83
+@homepageURL https://github.com/pizzacat83/userscripts
+@updateURL   https://raw.githubusercontent.com/pizzacat83/userscripts/master/niconico_hide_news.user.css
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.nicovideo.jp/watch") {
+    .MarqueeContainer {
+        display: none;
+    }
+}
