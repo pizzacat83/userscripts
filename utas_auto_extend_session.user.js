@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Auto-extend UTAS Session
-// @namespace    https://github.com/pizzacat83
+// @namespace    pizzacat83.com
 // @version      0.1.0
 // @description  UTASセッション自動延長
 // @author       pizzacat83

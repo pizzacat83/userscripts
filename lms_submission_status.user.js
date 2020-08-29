@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Show Submission Status on ITC-LMS Top Page
-// @namespace    https://github.com/pizzacat83
+// @namespace    pizzacat83.com
 // @version      0.2.0
 // @description  try to take over the world!
 // @author       pizzacat83

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Less Emphasized Back Button on ITC-LMS
-// @namespace    https://github.com/pizzacat83
+// @namespace    pizzacat83.com
 // @version      0.1.0
 // @description  ITC-LMS課題提出ページの「前の画面に戻るボタン」を目立たない色にします。
 // @author       pizzacat83

@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Permalink on UTAS Syllabus Class Info
-// @namespace    https://github.com/pizzacat83
+// @namespace    pizzacat83.com
 // @version      0.1.0
 // @description  UTASの授業情報ページに，授業カタログへのリンクを表示します。
 // @author       pizzacat83
