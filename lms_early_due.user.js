@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Earlier Due Date of ITC-LMS Tasks
 // @namespace    pizzacat83.com
-// @version      0.1.0
+// @version      0.2.0
 // @description  try to take over the world!
 // @author       pizzacat83
 // @match        https://itc-lms.ecc.u-tokyo.ac.jp/lms/task
@@ -15,6 +15,6 @@
     $('.result_list_line').map((i, e)=>{
         const dateEl = $(e).find('.tasklist-mobile-width-deadline');
         const date = luxon.DateTime.fromJSDate(new Date(dateEl.text()));
-        dateEl.text(date.minus(luxon.Duration.fromObject({days: 2})).toFormat('yyyy/MM/dd HH:mm:ss'))
+        dateEl.text(date.minus(luxon.Duration.fromObject({days: 2, hours: 12})).toFormat('yyyy/MM/dd HH:mm:ss'))
     })
 })();
