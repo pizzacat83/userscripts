@@ -14,7 +14,7 @@
     'use strict';
     $('.result_list_line').map((i, e)=>{
         const dateEl = $(e).find('.tasklist-mobile-width-deadline');
-        const date = luxon.DateTime.fromJSDate(new Date(dateEl.text()));
+        const date = luxon.DateTime.fromJSDate(new Date(dateEl.text().trim()));
         dateEl.text(date.minus(luxon.Duration.fromObject({days: 2, hours: 12})).toFormat('yyyy/MM/dd HH:mm:ss'))
     })
 })();
