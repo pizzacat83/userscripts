@@ -5,7 +5,7 @@
 @description    Hide captions of Pinterest feed
 @author         pizzacat83
 @homepageURL https://github.com/pizzacat83/userscripts
-@updateURL   https://raw.githubusercontent.com/pizzacat83/userscripts/master/pinterest/hide_captions.user.csas
+@updateURL   https://raw.githubusercontent.com/pizzacat83/userscripts/master/pinterest/hide_captions.user.css
 ==/UserStyle== */
 
 @-moz-document domain("www.pinterest.jp") {
