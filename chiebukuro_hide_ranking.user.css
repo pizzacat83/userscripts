@@ -9,7 +9,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("detail.chiebukuro.yahoo.co.jp") {
-    #sub-inner {
+    #ca_rnk, #all_rnk {
         display: none;
     }
 }
