@@ -26,5 +26,4 @@
   }
 
   GM_registerMenuCommand("職種で絞り込み", main);
-    // Your code here...
 })();
