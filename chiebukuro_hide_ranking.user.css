@@ -1,15 +1,15 @@
 /* ==UserStyle==
-@name           Hide ranking of Yahoo! chiebukuro
+@name           Hide distracting contents of Yahoo! chiebukuro
 @namespace      pizzacat83.com
-@version        1.0.0
-@description    Hide ranking of Yahoo! chiebukuro
+@version        2.0.0
+@description    Hide rankings and「あなたも答えてみませんか」
 @author         pizzacat83
 @homepageURL https://github.com/pizzacat83/userscripts
 @updateURL   https://raw.githubusercontent.com/pizzacat83/userscripts/master/chiebukuro_hide_ranking.user.css
 ==/UserStyle== */
 
 @-moz-document domain("detail.chiebukuro.yahoo.co.jp") {
-    #ca_rnk, #all_rnk {
+    #ca_rnk, #all_rnk, #y_rcmd {
         display: none;
     }
 }
